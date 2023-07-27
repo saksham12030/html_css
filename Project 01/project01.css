@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.image,img{
+    height: 320px;
+    width:300px;
+   
+}
+.image{
+    border-radius:50%;
+    overflow:hidden;
+}
+.container{
+    border:10px solid #1d1e4c;
+    background-color: #e5e5fd;
+    min-height:100vh;
+    
+}
+.content{
+    width:900px; 
+    margin:0 auto;
+}
+.sec1{
+    margin-top:100px;
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom:20px;
+}
+
+.Abdul h1{
+    font-size:50px;
+    font-weight: bold;
+    color:#1d1e4c;
+    text-transform: uppercase ;
+
+}
+.Abdul h4{
+    text-align:end;
+    font-size: 30px;
+}
+.sec2{
+    margin-top:50px;
+}
+.sec2 h1{
+    font-size: 70px;
+    font-weight: 400;
+    margin-bottom:20px;
+}
+.sec2 p{
+    letter-spacing: 1.2px;
+    line-height:25px;
+    font-size:16x;
+}
+.sec3{
+    margin:50px 0;
+}
+.sec3 .biography{
+    margin-bottom:20px;
+}
+.sec3 ul{
+    margin-left:50px;
+}
+.sec3 li{
+   margin-bottom:20px 
+}
+footer{
+    margin:50px 0;
+
+    
+}
+footer p{
+    text-align: end;
+}
